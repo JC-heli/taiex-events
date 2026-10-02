@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📊 加權指數 × 月行事曆｜事件K線（已搬家）</title>
+<meta name="description" content="事件K線已搬到新網址，改用 Google 帳號登入。">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://taiex-events.web.app/">
+<meta property="og:title" content="📊 加權指數 × 月行事曆｜事件K線">
+<meta property="og:description" content="已搬到新網址 taiex-events.web.app，改用 Google 帳號登入。">
+<meta property="og:image" content="https://taiex-events.web.app/og.png">
+<link rel="canonical" href="https://taiex-events.web.app/">
+<meta http-equiv="refresh" content="3; url=https://taiex-events.web.app/">
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; padding:16px; box-sizing:border-box;
+         background:#131722; color:#d1d4dc; font-family:-apple-system, BlinkMacSystemFont, "Microsoft JhengHei", sans-serif; text-align:center; }
+  a { color:#2962ff; font-weight:600; font-size:16px; word-break:break-all; }
+  p { color:#787b86; font-size:13px; line-height:1.7; }
+</style>
+</head>
+<body>
+<div>
+  <div style="font-size:34px">📊</div>
+  <h2 style="font-size:17px">事件K線已搬到新網址</h2>
+  <p>改用 Google 帳號登入，第一次登入需等管理員核准。<br>3 秒後自動前往…</p>
+  <a id="go" href="https://taiex-events.web.app/">taiex-events.web.app</a>
+</div>
+<script>
+  // 保留 #pin=YYYY-MM-DD 這類分享連結
+  var u = 'https://taiex-events.web.app/' + location.hash;
+  document.getElementById('go').href = u;
+  setTimeout(function () { location.replace(u); }, 1500);
+</script>
+</body>
+</html>
